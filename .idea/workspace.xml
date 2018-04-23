@@ -4,7 +4,6 @@
     <list default="true" id="82e5e58f-468b-4bfc-bacb-1a13a6091a5a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/GitHutController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/GitHutController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/githut/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/githut/index.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GitHutController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GitHutController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Controller/GitHutController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+            <state relative-caret-position="180">
+              <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
               <folding>
                 <element signature="e#684#708#0#PHP" expanded="true" />
               </folding>
@@ -30,7 +29,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/githut/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
@@ -68,8 +67,8 @@
         <option value="$PROJECT_DIR$/src/Service/GitHubApi.php" />
         <option value="$PROJECT_DIR$/templates/base.html.twig" />
         <option value="$PROJECT_DIR$/src/Controller/TestController.php" />
-        <option value="$PROJECT_DIR$/src/Controller/GitHutController.php" />
         <option value="$PROJECT_DIR$/templates/githut/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/Controller/GitHutController.php" />
       </list>
     </option>
   </component>
@@ -295,12 +294,12 @@
       <workItem from="1524283808624" duration="169000" />
       <workItem from="1524303019425" duration="2686000" />
       <workItem from="1524405986890" duration="668000" />
-      <workItem from="1524477464084" duration="4273000" />
+      <workItem from="1524477464084" duration="7672000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27623000" />
+    <option name="totallyTimeSpent" value="31022000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
@@ -672,20 +671,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/GitHutController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-          <folding>
-            <element signature="e#684#708#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/githut/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/GitHutController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <folding>
+            <element signature="e#684#708#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
