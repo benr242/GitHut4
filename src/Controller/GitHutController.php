@@ -18,21 +18,23 @@ use Symfony\Component\HttpFoundation\Request;
 class GitHutController extends Controller
 {
     /**
+     * @Route("/{usrname}", name="default", defaults={"username"="benr242"})
+     */
+    public function githutAction(Request $request, GitHubApi $api, $username, LoggerInterface $logger)
+    {
+        $logger->info(json_encode('username::GitHut: ' . $username));
+
+        return $this->render('githut/index.html.twig', [
+            'username' => $username
+        ]);
+
+    }
+
+    /**
      * @Route("/index", name="index")
      */
     public function intex()
     {
         return $this->render('githut/index.html.twig');
-    }
-
-    public function githutAction(Request $request, GitHubApi $api, $username, LoggerInterface $logger)
-    {
-        $logger->info(json_encode('username::GitHut: ' . $username));
-
-        /*
-        return $this->render('githut/index.html.twig', [
-            'username' => $username
-        ]);
-        */
     }
 }
