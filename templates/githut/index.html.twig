@@ -1,6 +1,6 @@
 {% extends 'base.html.twig' %}
 
-{% block title %} new gh4 {% endblock %}
+{% block title %} {{ username }} {% endblock %}
 {% block body %}
     <div class="container">
         <div class="row">
@@ -18,5 +18,15 @@
             </div>
         </div>
     </div>
-    {{ username }}: my new index
+    {{ username }}: my new index <br>
+
+    lenght: {{ userdata|length }}
+    lenght: {{ userdata2|length }}
+
+    {{ dump(userdata) }}
+    {{ dump(userdata2) }}
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
 {% endblock %}
