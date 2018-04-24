@@ -18,11 +18,11 @@ use Symfony\Component\HttpFoundation\Request;
 class GitHutController extends Controller
 {
     private $username;
-    
+
     /**
      * @Route("/{username}", name="default", defaults={"username"="benr242"})
      */
-    public function githutAction(Request $request, GitHubApi $api, $username = "benr242", LoggerInterface $logger)
+    public function githutAction(Request $request, GitHubApi $api, $username, LoggerInterface $logger)
     {
         dump($username);
         $logger->info(json_encode('username::GitHut: ' . $username));
