@@ -20,7 +20,7 @@ class GitHutController extends AbstractController
     private $username;
 
     /**
-     * @Route("/user/{username}", name="user", defaults={"username"="benr242"})
+     * @Route("/user/{username}", name="user", defaults={"username"="codereviewvideos"})
      */
     public function githutAction(Request $request, GitHubApi $api, $username, LoggerInterface $logger)
     {
