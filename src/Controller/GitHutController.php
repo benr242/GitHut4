@@ -27,14 +27,14 @@ class GitHutController extends AbstractController
         dump($username);
         $logger->info(json_encode('username::GitHut: ' . $username));
 
-        $userdata = $api->getProfile($username);
-        $userdata2 = $api->getRepos($username);
+        $profile = $api->getProfile($username);
+        $repos = $api->getRepos($username);
 
 
         return $this->render('githut/index.html.twig', [
             'username' => $username,
-            'userdata' => $userdata,
-            'userdata2' => $userdata2
+            'profile' => $profile,
+            'repos' => $repos
         ]);
 
     }

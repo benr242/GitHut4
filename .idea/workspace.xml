@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82e5e58f-468b-4bfc-bacb-1a13a6091a5a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/GitHutController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/GitHutController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/githut/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/githut/index.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,25 +18,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GitHutController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GitHutController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controller/GitHutController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="22" column="85" selection-start-line="22" selection-start-column="85" selection-end-line="22" selection-end-column="85" />
+            <state relative-caret-position="540">
+              <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
               <folding>
+                <element signature="e#6#88#0#PHP" expanded="true" />
                 <element signature="e#118#144#0#PHP" expanded="true" />
-                <element signature="e#762#786#0#PHP" expanded="true" />
-                <element signature="e#963#987#1#PHP" expanded="true" />
+                <element signature="e#856#880#0#PHP" expanded="true" />
+                <element signature="e#1133#1157#1#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/githut/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
-              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+              <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -68,8 +71,8 @@
         <option value="$PROJECT_DIR$/src/Service/GitHubApi.php" />
         <option value="$PROJECT_DIR$/templates/base.html.twig" />
         <option value="$PROJECT_DIR$/src/Controller/TestController.php" />
-        <option value="$PROJECT_DIR$/templates/githut/index.html.twig" />
         <option value="$PROJECT_DIR$/src/Controller/GitHutController.php" />
+        <option value="$PROJECT_DIR$/templates/githut/index.html.twig" />
       </list>
     </option>
   </component>
@@ -297,12 +300,13 @@
       <workItem from="1524405986890" duration="668000" />
       <workItem from="1524477464084" duration="10542000" />
       <workItem from="1524543054629" duration="1412000" />
-      <workItem from="1524569080665" duration="5582000" />
+      <workItem from="1524569080665" duration="7441000" />
+      <workItem from="1524647848857" duration="211000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40886000" />
+    <option name="totallyTimeSpent" value="42956000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
@@ -674,22 +678,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/githut/index.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/Controller/GitHutController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        <state relative-caret-position="540">
+          <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+          <folding>
+            <element signature="e#6#88#0#PHP" expanded="true" />
+            <element signature="e#118#144#0#PHP" expanded="true" />
+            <element signature="e#856#880#0#PHP" expanded="true" />
+            <element signature="e#1133#1157#1#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/GitHutController.php">
+    <entry file="file://$PROJECT_DIR$/templates/githut/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="22" column="85" selection-start-line="22" selection-start-column="85" selection-end-line="22" selection-end-column="85" />
-          <folding>
-            <element signature="e#118#144#0#PHP" expanded="true" />
-            <element signature="e#762#786#0#PHP" expanded="true" />
-            <element signature="e#963#987#1#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="390">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
         </state>
       </provider>
     </entry>
