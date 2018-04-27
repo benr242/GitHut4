@@ -25,6 +25,18 @@
 
     {{ dump(profile) }}
     {{ dump(repos) }}
+
+
+    'App\\Controller\\ArticleController::recentArticles',
+
+    <div class="col-sm-3">
+        {{ render (controller('App\\Controller\\GitHutController::profile', { 'username': username })) }}
+    </div>
+
+
+    <div class="col-sm-9">
+        {{ render (controller('App\\Controller\\GitHutController::repos', { 'username': username })) }}
+    </div>
 {% endblock %}
 
 {% block javascripts %}
