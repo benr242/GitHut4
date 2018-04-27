@@ -19,7 +19,8 @@
 
             <ul id="repolist" class="list-group">
                 {% for repo in repos %}
-                    <li class="list-group-item list-group-item-action">{% include 'githut/repo.html.twig' %}</li>
+                    {#<li class="list-group-item list-group-item-action">{% include 'githut/repo.html.twig' %}</li>#}
+                    <li class="list-group-item list-group-item-action">{{ include('githut/repo.html.twig') }}</li>
                 {% endfor %}
             </ul>
         </div>
