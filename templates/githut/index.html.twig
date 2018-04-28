@@ -1,31 +1,15 @@
 {% extends 'base.html.twig' %}
 
-{% block title %} {{ username }} {% endblock %}
+{% block scripts %}
+    {{ parent() }}
+    <script src="{{ asset('js/nav-click.js') }}"></script>
+{% endblock %}
+
 {% block body %}
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6" style="background-color: #8959A8">
-                eeeeeeeeeeeeeeeeee uuuuuuuuuuuuuuuuuuuuuuuuuu<br>
-                eeeeeeeeeeeeeeeeee uuuuuuuuuuuuuuuuuuuuuuuuuu<br>
-                eeeeeeeeeeeeeeeeee uuuuuuuuuuuuuuuuuuuuuuuuuu<br>
-                eeeeeeeeeeeeeeeeee uuuuuuuuuuuuuuuuuuuuuuuuuu<br>
-            </div>
-            <div class="col-lg-6" style="background-color: #8959A8">
-                eeeeeeeeeeeeeeeeee uuuuuuuuuuuuuuuuuuuuuuuuuu<br>
-                eeeeeeeeeeeeeeeeee uuuuuuuuuuuuuuuuuuuuuuuuuu<br>
-                eeeeeeeeeeeeeeeeee uuuuuuuuuuuuuuuuuuuuuuuuuu<br>
-                eeeeeeeeeeeeeeeeee uuuuuuuuuuuuuuuuuuuuuuuuuu<br>
-            </div>
-        </div>
-    </div>
-    {{ username }}: my new index <br>
-
-    lenght: {{ profile|length }}
-    lenght: {{ repos|length }}
-
-    {{ dump(profile) }}
-    {{ dump(repos) }}
-
+    <button id="demo">uaeueou;oe</button>
+    <nav class="navbar navbar-default">
+    {#{% include ':githut:top-nav.html.twig' %}#}
+    </nav>
 
     <div class="col-sm-3">
         {{ render (controller('App\\Controller\\GitHutController::profile', { 'username': username })) }}
@@ -35,8 +19,4 @@
     <div class="col-sm-9">
         {{ render (controller('App\\Controller\\GitHutController::repos', { 'username': username })) }}
     </div>
-{% endblock %}
-
-{% block javascripts %}
-    {{ parent() }}
 {% endblock %}
