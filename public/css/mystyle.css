@@ -1,0 +1,21 @@
+body {
+    background-color: powderblue;
+}
+
+table:nth-child(odd) {
+    background: #0000FF;
+}
+
+.blue {
+    color: #0000FF;
+}
+
+.altRow {
+    background:  #5cb85c;
+}
+
+ul.repolist:nth-child(odd) {
+    background-color: #6f42c1;
+}
+
+

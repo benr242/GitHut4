@@ -17,7 +17,7 @@
                 <h3 class="panel-title">Repo List</h3>
             </div>
 
-            <ul id="repolist" class="list-group">
+            <ul id="repolist" class="list-group repolist">
                 {% for repo in repos %}
                     {#<li class="list-group-item list-group-item-action">{% include 'githut/repo.html.twig' %}</li>#}
                     <li class="list-group-item list-group-item-action">{{ include('githut/repo.html.twig') }}</li>
